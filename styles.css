@@ -64,21 +64,22 @@ footer p {
     margin: 0 auto;
 }
 
-.hamburger {
+.kebab {
     background: none;
     border: none;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding: 10px;
 }
 
-.hamburger span {
+.kebab span {
     display: block;
-    width: 30px;
-    height: 3px;
+    width: 6px;
+    height: 6px;
     background-color: #f4e8d8;
-    transition: 0.3s;
+    border-radius: 50%;
 }
 
 .menu {

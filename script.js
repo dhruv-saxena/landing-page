@@ -1,8 +1,8 @@
-// Hamburger menu toggle
-const hamburger = document.getElementById('hamburger');
+// Kebab menu toggle
+const kebab = document.getElementById('kebab');
 const menu = document.getElementById('menu');
 
-hamburger.addEventListener('click', function() {
+kebab.addEventListener('click', function() {
     menu.classList.toggle('active');
 });
 
